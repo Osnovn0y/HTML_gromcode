@@ -1,0 +1,19 @@
+body {
+  background-color: antiquewhite;
+}
+.content-size {
+  box-sizing: content-box;
+  background-color: aquamarine;
+}
+.border-size {
+  box-sizing: border-box;
+  background-color: azure;
+}
+.content-size,
+.border-size {
+  height: 128px;
+  width: 512px;
+  margin: 16px;
+  padding: 16px;
+  border: 8px solid black;
+}
