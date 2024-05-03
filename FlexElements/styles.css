@@ -2,9 +2,3 @@
   display: flex;
   flex-wrap: wrap;
 }
-.block {
-  height: 100px;
-  width: 100px;
-  flex-shrink: 0;
-  box-sizing: border-box;
-}
