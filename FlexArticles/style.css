@@ -1,8 +1,5 @@
-header {
-  display: flex;
-}
 header h1 {
-  margin: auto;
+  text-align: center;
 }
 main {
   display: flex;
