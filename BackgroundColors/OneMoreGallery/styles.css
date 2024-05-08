@@ -1,0 +1,18 @@
+.gallery {
+  display: flex;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  margin: 16px;
+  border: 1px dotted grey;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.image:nth-child(1),
+.image:nth-child(2) {
+  background-position: 0 50%;
+}
+.image:nth-child(3) {
+  background-position: 50% 0%;
+}
