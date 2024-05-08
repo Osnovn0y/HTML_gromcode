@@ -8,6 +8,7 @@
   border: 1px dotted grey;
   background-size: contain;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 .image:nth-child(1),
 .image:nth-child(2) {
