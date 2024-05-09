@@ -1,3 +1,6 @@
+div {
+  position: relative;
+}
 img {
   max-width: 100%;
   display: block;
@@ -15,7 +18,7 @@ span {
   text-transform: uppercase;
   margin: 0 auto;
   position: absolute;
-  top: calc(50% - 96px);
+  top: calc(50% - 25px);
   left: calc(50% - 100px);
   opacity: 0.5;
 }
