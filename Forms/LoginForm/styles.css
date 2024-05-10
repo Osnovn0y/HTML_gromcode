@@ -26,8 +26,12 @@ form h1 {
 div {
   margin-bottom: 8px;
 }
-.form-label {
-  padding-bottom: 4px;
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 4px;
 }
 input {
   width: 100%;
