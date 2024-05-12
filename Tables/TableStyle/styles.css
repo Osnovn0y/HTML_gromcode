@@ -12,6 +12,9 @@ table {
 caption {
   margin-bottom: 8px;
 }
+tr {
+  line-height: 40px;
+}
 table,
 td,
 th {
@@ -23,8 +26,8 @@ th {
 }
 td,
 th {
-  line-height: 40px;
   text-align: right;
+  padding: 4px;
 }
 tbody tr:nth-child(odd) {
   background-color: #f2f2f2;
