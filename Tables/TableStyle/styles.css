@@ -17,15 +17,14 @@ td,
 th {
   border: 1px solid black;
   border-collapse: collapse;
-  text-align: right;
 }
 th {
   background-color: aqua;
 }
 td,
 th {
-  padding: 4px;
   line-height: 40px;
+  text-align: right;
 }
 tbody tr:nth-child(odd) {
   background-color: #f2f2f2;
