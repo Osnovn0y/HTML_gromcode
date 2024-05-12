@@ -1,56 +1,56 @@
-html {
-  font-size: 16px;
-  font-family: monospace;
-}
 * {
   box-sizing: border-box;
 }
-body {
+
+main {
   background-color: bisque;
+  height: 100vh;
+  display: flex;
+  font-family: monospace;
+  font-size: 16px;
 }
+
 form {
+  width: 300px;
   background-color: aqua;
-  min-width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
 }
-form h1 {
-  text-transform: uppercase;
+
+.form-title {
   text-align: center;
+  text-transform: uppercase;
 }
-div {
+
+.form-control {
   margin-bottom: 8px;
 }
-.form-control {
-  display: flex;
-  flex-direction: column;
-  vertical-align: middle;
-}
-label {
+
+.form-label {
+  display: block;
   margin-bottom: 4px;
 }
-input {
+
+.form-input {
   width: 100%;
   height: 32px;
   border-radius: 4px;
-  border: 1px solid #808080;
+  border: 1px solid grey;
   padding: 4px;
   outline: none;
 }
-input:required:invalid {
-  border: 3px solid #ff0000;
+
+.form-input:invalid {
+  border: 3px solid red;
 }
 
-button {
+.submit-button {
   width: 100%;
   height: 32px;
-  background-color: #ff7f50;
-  margin-top: 16px;
   text-transform: uppercase;
-  color: white;
   border-radius: 4px;
+  margin-top: 16px;
+  background-color: coral;
+  color: white;
 }
