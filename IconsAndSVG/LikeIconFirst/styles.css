@@ -5,11 +5,11 @@
   color: white;
   margin: 64px;
   border: none;
+  line-height: 50px;
   border-radius: 4px;
   font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
   font-weight: 700;
-  vertical-align: middle;
   cursor: pointer;
 }
 .custom:hover {
