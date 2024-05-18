@@ -1,0 +1,31 @@
+@keyframes move {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: calc(50vh - 50px);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+div {
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: coral;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  display: flex;
+  animation: move 2s, ease;
+  animation-fill-mode: forwards;
+}
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  margin: auto;
+}
