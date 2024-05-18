@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 .container {
   display: flex;
   height: 100vh;
@@ -11,9 +8,6 @@
   font-size: 16px;
   text-transform: uppercase;
   position: relative;
-}
-span {
-  display: block;
 }
 .rect {
   background-color: black;
