@@ -24,21 +24,26 @@ span {
 }
 
 @media screen and (min-width: 600px) {
-  section {
+  main {
     display: flex;
+    flex-wrap: wrap;
   }
-  section > div {
+  .navigation,
+  .products-list {
     width: 50%;
+  }
+  .news {
+    width: 100%;
   }
 }
 @media screen and (min-width: 900px) {
   main {
     display: flex;
+    flex-wrap: nowrap;
   }
-  section {
-    width: 600px;
-  }
+  .navigation,
+  .products-list,
   .news {
-    width: 300px;
+    width: 100%;
   }
 }
