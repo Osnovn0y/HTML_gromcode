@@ -27,7 +27,7 @@ button {
 .nav-list li {
   background-color: #808080;
   height: 2em;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
 }
 .nav-list li a {
   display: block;
