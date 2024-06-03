@@ -1,0 +1,59 @@
+@import "variables.scss";
+
+main {
+  display: flex;
+  @include for-small {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @include for-medium {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @include for-large {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  & div {
+    min-height: 200px;
+    display: flex;
+    width: 100%;
+
+    & span {
+      text-transform: lowercase;
+      padding: 8px;
+      border-radius: 4px;
+      background-color: #faebd7;
+      margin: auto;
+    }
+  }
+
+  & .navigation {
+    background-color: #ff7f50;
+    @include for-medium {
+      width: 50%;
+    }
+    @include for-large {
+      width: 100%;
+    }
+  }
+  & .products-list {
+    background-color: #006400;
+    @include for-medium {
+      width: 50%;
+    }
+    @include for-large {
+      width: 100%;
+    }
+  }
+  & .news {
+    background-color: #0ff;
+    @include for-medium {
+      width: 100%;
+    }
+    @include for-large {
+      width: 100%;
+    }
+  }
+}
