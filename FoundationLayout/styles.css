@@ -1,0 +1,82 @@
+.header {
+  width: 1140px;
+  height: 62px;
+  margin: auto;
+  display: flex;
+}
+.header .logo {
+  display: flex;
+}
+.header .logo__image {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+.header .logo .logo__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .logo .logo__text .logo__name {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.header .logo .logo__text .logo__description {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(43, 41, 45, 0.6);
+  opacity: 0.6;
+}
+.header .navigation {
+  margin-left: auto;
+  margin-top: 7px;
+  margin-right: 75px;
+}
+.header .navigation__item {
+  color: #2b292d;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  margin-left: 50px;
+}
+.header .navigation .navigation__item_selected {
+  font-weight: 700;
+}
+.header .navigation .navigation__arrow {
+  background-image: url(../Images/Arrow.png);
+  display: inline-block;
+  height: 5px;
+  width: 8px;
+  margin-left: 11px;
+}
+.header .header__button {
+  width: 160px;
+  height: 48px;
+  color: #fff;
+  background-color: #3040c4;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.page {
+  width: 1400px;
+  margin: auto;
+}
+.page .top-section {
+  background-color: #f3c6bd;
+  padding-top: 39px;
+  height: 710px;
+}
+
+/*# sourceMappingURL=styles.css.map */

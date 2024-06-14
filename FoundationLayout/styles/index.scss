@@ -1,0 +1,18 @@
+@import "header.scss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.page {
+  width: 1400px;
+  margin: auto;
+
+  & .top-section {
+    background-color: #f3c6bd;
+    padding-top: 39px;
+    height: 710px;
+  }
+}
