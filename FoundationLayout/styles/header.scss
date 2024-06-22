@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 .header {
   width: 1140px;
   height: 62px;
@@ -21,11 +23,12 @@
         font-size: 20px;
         line-height: 25px;
         font-weight: 700;
+        color: $text-color;
       }
       & .logo__description {
         font-size: 18px;
         line-height: 25px;
-        color: #2b292d99;
+        color: $text-color;
         opacity: 0.6;
       }
     }
@@ -37,7 +40,7 @@
     margin-right: 75px;
 
     &__item {
-      color: #2b292d;
+      color: $text-color;
       text-decoration: none;
       line-height: 25px;
       font-size: 18px;
@@ -53,16 +56,5 @@
       width: 8px;
       margin-left: 11px;
     }
-  }
-
-  & .header__button {
-    width: 160px;
-    height: 48px;
-    color: #fff;
-    background-color: #3040c4;
-    font-size: 18px;
-    font-weight: 700;
-    border: none;
-    border-radius: 2px;
   }
 }

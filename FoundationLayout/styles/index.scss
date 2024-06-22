@@ -1,4 +1,8 @@
+@import "variables.scss";
+@import "common.scss";
 @import "header.scss";
+@import "footer.scss";
+@import "headline.scss";
 
 * {
   box-sizing: border-box;
@@ -8,7 +12,10 @@ body {
 }
 .page {
   width: 1400px;
+  min-height: 100vh;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 
   & .top-section {
     background-color: #f3c6bd;
